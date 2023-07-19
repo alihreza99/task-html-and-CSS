@@ -46,7 +46,7 @@ body{
 .items{
     position: absolute;
     display: flex;
-    left: 20%;
+    left: 26%;
     flex-direction: row;
 }
 .nav-item{
@@ -761,7 +761,9 @@ body{
 }
 
 @media only screen and (min-width: 1350px){
-    
+    .items{
+        left: 30%;
+    }
     .th-body-l{
         left: 20%;
     }
@@ -803,6 +805,9 @@ body{
     .sec-header{
         margin-right: 5%;
     }
+    .items{
+        left: 32%;
+    }
     .header-b-r{
         margin-left: 20%;
     }
@@ -814,9 +819,8 @@ body{
     }
 }
 @media only screen and (min-width: 1700px){
-    
-    .nav-item{
-        margin-left: 50px;
+    .items{
+        left: 34%;
     }
     
     .rate{
