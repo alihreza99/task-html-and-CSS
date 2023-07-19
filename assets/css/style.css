@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    overflow-x : none;
+    
 }
 .blue-text{
     background-color: rgb(6, 148, 153);
@@ -9,13 +9,14 @@ body{
     height: 49px;
     top: 0;
 }
-.blue-text p{
+.blue-text a{
     color: aliceblue;
     position: absolute;
     width: 100%;
     text-align: center;
     background-color: rgb(6, 148, 153);
-   
+    top: 15px;
+    text-decoration: none;
 }
 .blue-text button{
     position: absolute;
@@ -39,10 +40,7 @@ body{
     left: 5%;
     top: 10px;
 }
-.navbar strong{
-    font-size: large;
-    margin-left: 10px;
-}
+
 .items{
     position: absolute;
     display: flex;
@@ -845,11 +843,15 @@ body{
  .blue-text{
     width: 100%;
 }
+
 .th-page{
     width: 100%;
 }
 .fo-page{
     width: 100%;
+}
+.fo-page-r{
+    margin-left: 50%;
 }
 .fi-page{
     width: 100%;
@@ -879,6 +881,9 @@ body{
 @media only screen and (max-width: 1072px){
     .blue-text{
         width: 100%;
+    }
+    .items{
+        margin-left: 0;
     }
     .header-b-r-div img{
         width: 100%;
