@@ -112,7 +112,7 @@ body{
 .header-b-r{
     display: flex;
     flex-direction: row;
-    margin-left: 15%;
+    margin-left: 5%;
 }
 
 
@@ -120,7 +120,7 @@ body{
     border-radius: 20px;
     margin-top: 80px;
     height: 400px;
-    width: 100%;
+    width: 90%;
 }
 
 .belit-item-btn{
@@ -761,8 +761,6 @@ body{
 }
 
 @media only screen and (min-width: 1350px){
-   
- 
     
     .th-body-l{
         left: 20%;
@@ -805,7 +803,9 @@ body{
     .sec-header{
         margin-right: 5%;
     }
-    
+    .header-b-r{
+        margin-left: 20%;
+    }
     .fi-page-pics img{
         width: 410px;
     }
