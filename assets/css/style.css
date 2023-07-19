@@ -1,11 +1,11 @@
 body{
     margin: 0;
-    width: 99%;
+    overflow-x : none;
 }
 .blue-text{
     background-color: rgb(6, 148, 153);
     position: relative;
-    width: 101%;
+    width: 100%;
     height: 49px;
     top: 0;
 }
@@ -60,22 +60,7 @@ body{
     align-items: center;
     color: black;
 }
-.navbar select{
-    border: none;
-    border-radius: 4px;
-    background-color:rgb(253, 253, 253);
-    margin-left: 10%;
-}
-.navbar input{
-    border: none;
-    border-radius: 4px;
-    background-color:rgb(253, 253, 253);
-    margin-left: 10%;
-    
-}
-.navbar form{
-    position: absolute;
-}
+
 .navbuttons{
     position: absolute;
     margin-left: 85%;
@@ -138,7 +123,7 @@ body{
     border-radius: 20px;
     margin-top: 80px;
     height: 400px;
-    width: 500px;
+    width: 100%;
     
 }
 
@@ -235,19 +220,15 @@ body{
       border-radius: 8px;
       background-color:rgb(6, 148, 153);
   }
-  .f-foter{
-      position: relative;
-      top: 330px;
-      width: 100%;
-  }
-  .f-foter h2{
-    position: absolute;
-  }
+  
+ 
   .brands{
-      margin-left: 10px;
+    position: relative;
+    top: 330px;
+    width: 100%;
   }
   .brands h2{
-      margin-left: 35%;
+      margin-left: 40%;
   }
   .brands div{
       position: absolute;
@@ -279,7 +260,7 @@ body{
 .l3{
     display: flex;
     flex-direction: row;
-    margin-left: 45%;
+    margin-left: 48%;
 }
 .l4{
     display: flex;
@@ -346,7 +327,6 @@ body{
     position: relative;
     top: 600px;
     background-color: rgba(101, 131, 156, 0.1);
-    width: 101%;
 }
 .th-body-l{
     position: absolute;
@@ -498,7 +478,7 @@ body{
 }
 .fo-page{
     height: 600px;
-    width: 101%;
+    width: 100%;
     margin-top: 700px;
     display: flex;
     flex-direction: row;
@@ -560,7 +540,7 @@ body{
 }
 .fi-page{
     height: 800px;
-    width:101%;
+    width:100%;
     background-color: rgba(101, 131, 156, 0.1);
 }
 .fi-page-head{
@@ -669,7 +649,7 @@ body{
 
 .page7{
     height: 600px;
-    width: 101%;
+    width: 100%;
     background-color: rgba(101, 131, 156, 0.1);
     position: relative;
 }
@@ -783,18 +763,11 @@ body{
     color: gray;
     margin-left: 33%;
 }
+
 @media only screen and (min-width: 1350px){
-    .header-b{
-        width: 1250px;
-        margin-left: 10%;
-    }
-    .f-foter{
-        width: 1250px;
-        margin-left: 7%;
-    }
-    .sec-page{
-        margin-left: 10%;
-    }
+   
+ 
+    
     .th-body-l{
         left: 20%;
     }
@@ -836,9 +809,7 @@ body{
     .sec-header{
         margin-right: 5%;
     }
-    .f-foter{
-        margin-left: 10%;
-    }
+    
     .fi-page-pics img{
         width: 410px;
     }
@@ -847,17 +818,11 @@ body{
     }
 }
 @media only screen and (min-width: 1700px){
-    .header-b{
-        width: 1250px;
-        margin-left: 17%;
-    }
+    
     .nav-item{
         margin-left: 50px;
     }
-    .f-foter{
-        width: 1250px;
-        margin-left: 17%;
-    }
+    
     .rate{
         margin-left: 3%;
         top: 730px;
@@ -872,28 +837,25 @@ body{
         margin-left: 39%;
     }
 }
-@media only screen and (max-width: 1200px){
-  .body{
-      width: 100%;
-  }
- .header-b-r-div img{
-    width: 400px;
+@media only screen and (max-width: 1235px){
+  .header-b-r-div img{
+    width: 100%;
     
  }
  .blue-text{
-    width: 102.2%;
+    width: 100%;
 }
 .th-page{
-    width: 102%;
+    width: 100%;
 }
 .fo-page{
-    width: 102%;
+    width: 100%;
 }
 .fi-page{
-    width: 102%;
+    width: 100%;
 }
 .page7{
-    width: 102%;
+    width: 100%;
 }
  .brands{
      width: 100%;
@@ -916,7 +878,7 @@ body{
 }
 @media only screen and (max-width: 1072px){
     .blue-text{
-        width: 102%;
+        width: 100%;
     }
     .header-b-r-div img{
         width: 100%;
@@ -927,6 +889,9 @@ body{
      }
      .fi-page-pics img{
          width: 70%;
+     }
+     .th-body-r{
+         width: 50%;
      }
      .page7-r{
         margin-left: 80%;
